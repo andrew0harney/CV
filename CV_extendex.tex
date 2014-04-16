@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Andrew Daniel} % Your first name
+\familyname{O'Harney} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\mobile{(+44) 7794 1654}
+\phone{(+44) 0141 416 1005 (Skype)}
+\extrainfo{%
+  \httplink{https://github.com/andrew0harney}}
+\email{oharney@gmail.com}
+% The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+% The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2008--2013}{MSci Computing Science}{University of Glasgow}{UK}{}{First Class Honours} % Arguments not required can be left empty
+\cvitem{Master's}{\emph{Exact-Approximate Bayesian Multiple-Class Multiple-Kernel Learning for Neuroimaging Data}\newline This project extended Gaussian process methods to be able to efficiently take into account data stemming from multiple sources and containing multiple classes. The end product was a framework for performing such classification. It was tested on large neuroimaging data sets, and demonstrated the computational benefits that can be achieved in both classification and uncertainty estimates. This project was completed in Matlab.}
+\cvitem{Honour's}{\emph{Formal methods for modelling the Wnt/Beta-catenin signalling pathway in Alzheimer's Disease} \newline This project used formal methods to reason about the progression of Alzheimer's disease. Models were constructed and verified in PRISM.}
+\cvitem{Team Project}{\emph{Go Application} \newline My 3rd year team project was on the development of an application that could play the game of Go. I was tasked primarily with developing the artificial intelligence and architecture for the application. I used algorithms such as minimax with heuristics. This work was done in Java.}
+\cvitem{Miscellaneous coursework}{\emph{} \newline Through the course of my degree I completed a number of team and individual assessments that required competence in a variety of skills and languages. Amoung others, examples include the development of a web server in C, Pacman game in python, web service in Javascript, and a distributed voice to text messenger in Java.}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+\cventry{09/13--Present}{Researcher}{Medical University of South Carolina}{South Carolina}{USA}{I am a researcher and software developer in the neurosciences department, under the supervision of Dr Thomas Naselaris. I develop tools that allow the lab to handle and process large amounts of data. In addition I develop machine learning models to explore the statistical properties of brain computation. Those models learn topic categorisations over large image collections, using techniques from information retrieval, and in particular, latent Dirichlet allocation. From this I predict signals using regression methods. I also use engineering techniques for the analysis and filtering of signals. This is done using python using tools such as Pandas, Numpy and sklearn.}
+
+\cventry{06/13--09/13}{Researcher}{Cognition and Brain Sciences Unit - MRC}{Cambridge}{UK}{I was a researcher and developer in the visual objects lab, under the supervision of Dr Nikolaus Kriegeskorte. My task was to develop software to simulate brain visual processing. I then investigated the information properties of fMRI and how this relates to the decodability of visual patterns using machine learning. For this I used spatial filtering techniques in conjunction with support vector machine and linear discriminant analysis classifiers. This work was done in Matlab.}
+
+\cventry{09/11--05/13}{Chief Tutor}{University of Glasgow}{Glasgow}{UK}{I helped first year students with their python programming labs. The role involved providing support and advice for students with their coursework. It also involved ensuring the professional attitude of tutors and guiding them in assisting students.}
+
+\cventry{05/12--09/12}{Summer Intern}{University of Glasgow}{Glasgow}{UK}{I was a researcher and developer in the Human Computer Interaction group, under the supervision of Professor Stephen Brewster. I Investigated the use of machine learning for automatic activity recognition classification using Java for application development on Android.}
+
+\cventry{06/10--9/10}{Summer Intern}{CEFET University}{Belo Horizonte}{Brazil}{I was a researcher in the computing department. The project looked at the computational benefits of distributed methods, such as HADOOP, against traditional database methods. The summer placement was facilitated trough the British Council's IAESTE program. The project required complementary skills in both Java and SQL.}
+
+
+\subsection{Miscellaneous}
+
+\cventry{09/12--03/13}{Volunteer}{Friends of the Beatson West of Scotland Cancer Centre}{Glasgow}{UK}{I worked in a support role, aiding patients and helped with the general upkeep of the centre.}
+
+\cventry{05/1--09/11}{Volunteer}{AYISE NGO}{Bangwe}{Malawi}{I was a member of student volunteers abroad. I worked in a HIV clinic, taught summer classes in schools, taught I.T, as well as various other projects.}
+
+%----------------------------------------------------------------------------------------
+%	PUBS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+\cvitem{2013}{Exact-Approximate Bayesian Multiple-Class Multiple-Kernel Learning for Neuroimaging Data, International Conference on Pattern Recognition, 2014}
+
+%----------------------------------------------------------------------------------------
+%	Skills
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+\cvitem{}{I have experience and familiarity with a range of software development and analytic techniques. Furthermore, I feel that my training means that I can readily adopt new technologies.}
+\cvitem{Langauges}{Python [intermediate-advanced], Java [intermediate], Matlab [intermediate], JS/JQuery [basic], C [basic]}
+\cvitem{Software Development}{Software development processes, Version control, Team projects, Software patterns , Software architecture}
+\cvitem{Analytic}{Artificial intelligence, Machine learning [Bayesian], Information retrieval, Fourier analysis}
+
+
+%----------------------------------------------------------------------------------------
+%	REFS
+%----------------------------------------------------------------------------------------
+
+\section{References}
+\cvitem{Prof Muffy Calder}{Lecturer, School of Computing Science, University of Glasgow, Glasgow, UK.\newline
+Tel: +44 141 330 4969 \newline
+Email: muffy.calder@glasgow.ac.uk}
+
+\cvitem{Dr Maurizio Filippone}{Lecturer, School of Computing Science, University of Glasgow, Glasgow, UK.\newline
+Tel: +44 141 330 4933 \newline
+Email: maurizio.filippone@glasgow.ac.uk }
+
+\cvitem{Dr Nikolaus Kriegeskorte}{Researcher, Cognition and Brain Sciences Unit, Cambridge, UK.\newline
+Tel: +44 1223 273 791 \newline
+Email: nikolaus.kriegeskorte@mrc-cbu.cam.ac.uk}
+
+\cvitem{Dr Thomas Naselaris}{Researcher, Medical University of South Carolina, SC, USA.\newline
+Tel: +01 843 792 6263 \newline
+Email: email: tnaselar@musc.edu}
+
+
+\end{document}
